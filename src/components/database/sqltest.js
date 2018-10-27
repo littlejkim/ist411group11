@@ -1,5 +1,5 @@
 var Connection = require('tedious').Connection;
-var request = require('tedious').Request;
+var Request = require('tedious').Request;
 
 // Create connection to database
 var config = 
@@ -33,7 +33,7 @@ function queryDatabase()
    { console.log('Reading rows from the Table...');
 
        // Read all rows from table
-     request = new Request(
+     var request = new Request(
           "SELECT * FROM Users",
              function(err, rowCount, rows) 
                 {
