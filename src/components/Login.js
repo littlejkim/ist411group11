@@ -1,5 +1,4 @@
-import React, { PropTypes } from 'react';
-import Register from './Register';
+import React from 'react';
 
 
 class Login extends React.Component {

@@ -4,10 +4,11 @@ import Login from "./components/Login";
 import Error from "./components/Error";
 import Register from "./components/Register";
 import Produce from "./components/Produce";
-import Fruits from "./src/components/produce/Fruits";
-import Vegetables from "./src/components/produce/Vegetables";
+import Fruits from "./components/produce/Fruits";
+import Vegetables from "./components/produce/Vegetables";
 
 class App extends Component {
+
 
   render() {
     return (

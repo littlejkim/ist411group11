@@ -4,13 +4,8 @@ import React from 'react';
 
 class Fruits extends React.Component {
     
-    constructor(props){
-
-    }
-    
     
     getFruits = () => {
-
     }
     
     
