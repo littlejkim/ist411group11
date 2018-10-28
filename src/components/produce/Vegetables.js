@@ -8,7 +8,23 @@ class Vegetables extends React.Component {
         
     render(){
         return(
-            <div>Vegetables page</div>
+            <div className="produceTable">
+            <h3>Current Vegetable Prices</h3>
+        
+            <table border= "1">
+                <tbody> 
+                    <tr>
+                        <td><b>Vegetable</b></td>
+                        <td><b>Current Price</b></td>
+                    </tr>
+                    <tr>
+                        <td>Column1</td>
+                        <td>Column2</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="../Produce" className='backButton'>Return</a>
+        </div>
         );
     }
     
