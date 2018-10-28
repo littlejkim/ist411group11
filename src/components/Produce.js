@@ -22,11 +22,15 @@ class Produce extends React.Component {
         return (
         <div>
             <form onSubmit={this.handleFruits}>
-              <input type='submit' value='Fruits' />
+              <input className='produceSelect' type='submit' value='Fruits' />
             </form>
+
             <form onSubmit={this.handleVegetables}>
-              <input type='submit' value='Vegetables' />
+              <input className='produceSelect' type='submit' value='Vegetables' />
             </form>
+
+            <a href="/" className='backButton'>Logout</a>
+
         </div>
         );
     }
