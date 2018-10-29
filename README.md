@@ -18,6 +18,6 @@ The database folder, which has the getProduce.js file successfully calls the nam
 
 The App.js file contains the different routes that we have configured.
 
-Testing of the application can be done through trying the different routes on the web browser (front end) or running the getProduce.js/getUsers.js file in the database folder (back end).
+Testing of the application can be done through trying the different routes on the web browser (front end) or running node getProduce.js or node getUsers.js in the terminal of the database folder (back end). **The SQL has firewall rules which we tried to allow all IPs (ranging from 0.0.0.0 to 255.255.255.255 but it doesn't seem to work
 
 Overall, we have finished all the requirements of the Sprint 1. However, we finished some objectives quicker than expected and some took longer. 
