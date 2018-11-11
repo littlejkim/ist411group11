@@ -1,9 +1,6 @@
 import React from "react";
 import { Map, GoogleApiWrapper, InfoWindow, Marker } from 'google-maps-react';
 import '../index.css'
-import Paper from 'material-ui/Paper';
-import Typography from 'material-ui/Typography';
-import { typography } from 'material-ui/styles';
 
 const mapStyles = {
     width: '100%',
